@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <title>Дашборд</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<main>
+    
+    <section class="name">
+        <h1>Сводная таблица</h1>
+        <p>Отчет сформирован за период с 25 ноября по 29 ноября 2018</p>
+    </section>
+    
+    
+    <section class="choice">
+        <div class="fast_choice">
+            <h2>Быстрый выбор</h2>
+            <ul>
+                <li>
+                    <button class="btn">Неделя</button>
+                </li>
+                <li>
+                    <button class="btn">Месяц</button>
+                </li>
+                <li>
+                    <button class="btn">Год</button>
+                </li>
+                <li>
+                    <button class="btn">Весь период</button>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="detal_choice">
+            <h2>Детальный выбор</h2>
+        
+            <div class="period_date">
+                <label for="from_date">Период: с</label>
+                <input type="date" name="from_date" id="from_date">
+                <label for="to_date">по</label>
+                <input type="date" name="from_date" id="to_date">
+            </div>
+        
+            <div class="period_time">
+                <p>Временной интервал</p>
+                <button class="btn hours">По часам/минутам</button>
+                <label for="from_time">с</label>
+                <input type="time" name="from_time" id="from_time" value="00:00">
+                <label for="to_time">по</label>
+                <input type="time" name="to_time" id="to_time" value="23:59">
+                <div class="filter_buttons">
+                    <button class="btn use_filter">Применить фильтр</button>
+                    <button class="btn reset_filter">Сбросить фильтр</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+</main>
+
+</body>
+</html>
